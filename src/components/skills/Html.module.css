@@ -1,0 +1,46 @@
+
+.html {
+    transform: scale(1.5);
+    color: #cf490a;
+}
+
+
+.divs {
+    min-width: 40vw;
+    width: 40vw;
+    margin-left: 300%;
+    padding: 1em;
+    animation: slider 120s infinite ease-in-out;
+    animation-delay: 2s;
+
+}
+.divs:hover {
+    animation-play-state: paused;
+}
+@media screen and (max-width: 600px) {
+.divs {
+    min-width: 90vw;
+    width: 90vw;
+    margin-left: 500%;
+    padding: 1em;
+    animation: none;
+    animation-delay: 5s;
+}
+}
+@keyframes slider {
+    10% {
+        margin-left: 165%;
+    }
+    20% {
+        margin-left: 35%;
+    }
+    30% {
+        margin-left: -100%;
+    }
+    40% {
+        margin-left: -230%;
+    }
+    50% {
+        margin-left: -365%;
+    }
+}

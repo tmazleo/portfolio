@@ -1,0 +1,82 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    min-width: 25vw;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+
+    height: 25ch;
+}
+
+.divv {
+    margin-top: .3em;
+}
+
+input {
+    width: 75%;
+    min-width: 75%;
+    font-size: 1em;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: .5em;
+
+}
+
+input:focus {
+    outline: 0;
+    border-right: 1px solid white;
+}
+
+input[type="submit"] {
+    width: 45%;
+    min-width: 45%;
+    border-radius: 8px;
+    border: 1px solid white;
+
+    color: white;
+    cursor: pointer;
+    margin-top:.5em;
+}
+
+input[type="submit"]:active {
+    box-shadow: inset 1px 1px 2px black;
+}
+input[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.329);
+}
+
+textarea {
+    resize: none;
+    width: 68%;
+    height: 8vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: .5em;
+
+}
+textarea:focus {
+    outline: 0;
+}
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@media screen and (max-width: 370px) {
+    textarea {
+        height: 5vh;
+    }
+    input {
+        font-size: .8em;
+    }
+    label {
+        font-size: .8em;
+    }
+}

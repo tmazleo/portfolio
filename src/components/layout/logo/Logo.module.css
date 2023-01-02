@@ -1,0 +1,35 @@
+.div {
+    height: 5.5vh;
+    margin-bottom: 0;
+    width: 300px;
+}
+
+.logo {
+    font-family: 'Ubuntu';
+    margin-bottom: 0;
+    font-size: 2em;
+    width: 300px;
+    animation: slide 1s steps(4);
+    color: #e3c5eb;
+    overflow: hidden;
+    margin-left: 8%;
+    cursor: default;
+}
+@keyframes slide{
+    0% {
+        width: 0;
+    }
+    25% {
+        width: 100px;
+    }
+    50% {
+       width: 200px;
+    }
+    75% {
+        width: 300px;
+    }
+    100% {
+        width: 350px;
+    }
+    
+} 

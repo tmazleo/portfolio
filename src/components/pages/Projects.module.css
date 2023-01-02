@@ -1,0 +1,162 @@
+.section {
+    margin: auto;
+    width: 700px;
+    max-width: 700px;
+    height: 45vh;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 2px 2px 2px #0000009a;
+}
+.section a {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.616);
+    font-weight: 700;
+    font-size: 1.2em;
+    width: 3em;
+    height: 3em;
+    border-radius: 5px;
+
+
+}
+
+
+.section a:hover {
+    width: 9em;
+}
+
+.card:first-child a:hover {
+    background-image: url(../../../imgs/leading.png);
+    background-position: center;
+    background-size: cover;
+ 
+}
+.card:nth-child(2) a:hover{
+    background-image: url(../../../imgs/form.png);
+    background-position: center;
+    background-size: cover;
+}
+.card:nth-child(3) a:hover{
+    background-image: url(../../../imgs/leadingS.png);
+    background-position: center;
+    background-size: cover;
+}
+.card:nth-child(4) a:hover{
+    background-image: url(../../../imgs/cauculadora.png);
+    background-position: center;
+    background-size: cover;
+}
+.card:nth-child(5) a:hover{
+    background-image: url(../../../imgs/shopix.png);
+    background-position: center;
+    background-size: cover;
+}
+.card:nth-child(6) a:hover{
+    background-image: url(../../../imgs/conversor.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.6em;
+}
+
+
+.link {
+    display: inline-block;
+    color: #a32b7d;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: transform .2s;
+}
+.link:hover {
+    transform: scale(1.1);
+}
+
+.cards {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.521);
+    width: 6em;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .2s, background .2s;
+    background-image: url(../../../imgs/project.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.card:hover {
+    transform: scale(2);
+    width: 8em;
+    background: none;
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    .section h2 {
+        font-size: 1em;
+    }
+
+    .card {
+    width: 5em;
+    height: 5em;
+    background: none
+    }
+    .card:first-child a{
+        background-image: url(../../../imgs/leading.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .card:first-child a{
+        background-image: url(../../../imgs/leading.png);
+        background-position: center;
+        background-size: cover;
+     
+    }
+    .card:nth-child(2) a{
+        background-image: url(../../../imgs/form.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .card:nth-child(3) a{
+        background-image: url(../../../imgs/leadingS.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .card:nth-child(4) a{
+        background-image: url(../../../imgs/cauculadora.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .card:nth-child(5) a{
+        background-image: url(../../../imgs/shopix.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .card:nth-child(6) a{
+        background-image: url(../../../imgs/conversor.png);
+        background-position: center;
+        background-size: cover;
+    }
+}

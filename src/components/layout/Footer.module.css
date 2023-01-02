@@ -1,0 +1,74 @@
+.container {
+    background-color: #313131;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 8px 8px 0 0;
+
+}
+
+.container ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    height: 8vh;
+}
+.container li {
+    list-style: none;
+    transition: transform .2s;
+}
+
+.p {
+    margin-left: 2em;
+}
+
+.git {
+    background-image: url(../../../imgs/gitqr.png);
+    width: 4em;
+
+    height: 4em;
+    background-position: center;
+    background-size: 18em;
+}
+.linked {
+    background-image: url(../../../imgs/linkeqr.png);
+    width: 4em;
+    height: 4em;
+    background-position: center;
+    background-size: 16em;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: .8em;
+    color: #d564f1;
+}
+
+.copy {
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: bold;
+    color: #7c917f;
+    cursor:default;
+}
+.container span {
+    color: #a32b7d;
+}
+
+@media screen and (max-width: 880px) {
+    
+    .container {
+        height: 15vh;
+    }
+    .container li:hover {
+        transform: scale(1);
+    }
+    
+}

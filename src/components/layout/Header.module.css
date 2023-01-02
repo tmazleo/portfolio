@@ -1,0 +1,21 @@
+.container {
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    width: 100vw;
+    height: 20vh;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+@media screen and (max-width: 880px) {
+    
+    .container {
+        height: 15vh;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,17 @@
+
+.js {
+    transform: scale(2);
+    color: #e2c12c;
+}
+.divs {
+    min-width: 40vw;
+    width: 40vw;
+    padding: 1em;
+}
+@media screen and (max-width: 600px) {
+.divs {
+    min-width: 80vw;
+    width: 80vw;
+    padding: 1em;
+}
+}
